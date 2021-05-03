@@ -63,7 +63,7 @@ def make_env(scenario_name, arglist, benchmark=False):
     from pettingzoo.classic import hanabi_v3
     
     #env = hanabi_v3.env(colors=5, ranks=5, players=2, hand_size=5, max_information_tokens=8, max_life_tokens=3, observation_type=1)
-    env = hanabi_v3.env()
+    env = hanabi_v4.env()
     print(env)
 
     return env
